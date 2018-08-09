@@ -44,6 +44,11 @@
 // @purpose: Strict mode applies to entire scripts or to individual functions.
 "use strict";
 
+// To load required Node module.
+///-----------------------------
+var fs    = require('fs');
+var path  = require('path');
+
 // To load required NPM modules.
 // -----------------------------
 var chalk = require('chalk');
