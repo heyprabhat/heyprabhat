@@ -24,7 +24,7 @@
  *              └────── A Sequømics Product — http://sequomics.com/.
  * ___________________________________________________________________________
  *
- * --/The Heart of Build System/-- of "grunt-roller®".
+ * --/The Heart of Build System/-- of "heyprabhat®".
  * ___________________________________________________________________________
  */
 
