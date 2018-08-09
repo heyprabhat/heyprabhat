@@ -24,5 +24,56 @@
 #              └────── A Sequømics Product — http://sequomics.com/.
 # ___________________________________________________________________________
 
-
+# ___________________________________________________________________________
+#
 # Usage: $ compass init
+# ___________________________________________________________________________
+
+# -------------------------------------- //
+#                  ~   ~                 //
+#                 (.) (.)                //
+#                    -                   //
+#                  `\^/`                 //
+#        @author : Prabhat Kumar         //
+#          @date : 04-Sept-2016          //
+# -------------------------------------- //
+
+# Sass - (3.4.21)     : Selective Steve
+# Compass - (v1.0.3)  : Polaris
+
+# Require compass plugin:
+require 'compass/import-once/activate'
+
+# Setting the root path of project:
+http_path       = "/"
+css_dir         = "core/source/style"
+sass_dir        = "core/source/scss"
+images_dir      = "core/source/images"
+javascripts_dir = "core/source/script"
+
+# Preferred output style here (can be overridden via the command line):
+# output_style = :expanded or :nested or :compact or :compressed
+output_style    = :expanded
+
+# To enable relative paths to assets via compass helper functions:
+relative_assets = true
+
+# To disable debugging comments that display the original location of the selectors:
+# options: true || false
+line_comments   = true
+
+# ___________________________________________________________________________
+# Preference for the indented syntax, to regenerate this project again,
+# Pass: --syntax sass, or uncomment this:
+# preferred_syntax = :sass
+# and then run:
+# sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
+
+# Usage: $ compass version
+# ------------------------
+# Usage: $ compass compile
+# Usage: $ compass watch
+# ------------------------
+# Usage: $ compass compile --production
+# Usage: $ compass compile --sourcemap
+# //——————————————EOF——————————————//-
