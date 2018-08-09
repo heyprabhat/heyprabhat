@@ -78,3 +78,35 @@ var build = {
   "name": "Umeå",
   "audience": "for all beloved family members."
 };
+
+// A smart license function.
+///-------------------------
+var license = [
+'/*!                                                                                                  ',
+' * heyprabhat® — %(version)s                                                                         ',
+' * Hey Prabhat — A Personal Writings.                                                                ',
+' * ---------------------------------------------------------------------------                       ',
+' * Copyright © 2008 - ' + new Date().getFullYear() + ', Prabhat Kumar, All rights reserved.          ',
+' * ---------------------------------------------------------------------------                       ',
+' * Copyright © 2014 - ' + new Date().getFullYear() + ', Sequømics Research, All rights reserved.     ',
+' * Copyright © 2014 - ' + new Date().getFullYear() + ', Sequømics Corporation, All rights reserved.  ',
+' * ---------------------------------------------------------------------------                       ',
+' * HomePage: http://research.sequomics.com/ or http://sequomics.com/                                 ',
+' * ---------------------------------------------------------------------------                       ',
+' * Available via the Apache, version 2.0. [http://www.apache.org/licenses/]                          ',
+' * See: https://github.com/heyprabhat — for details.                                                 ',
+' * ---------------------------------------------------------------------------                       ',
+' */                                                                                                  ',
+'\n',
+'/*!                                                                                                  ',
+' * Build System — ' + build.system + ':' + build.name + ' — ' + '%(version)s' + ' — '+ build.audience ,
+' * ---------------------------------------------------------------------------                       ',
+' * Copyright © 2015 - ' + new Date().getFullYear() + ', Sequømics Corporation, All rights reserved.  ',
+' * Available via the Apache, version 2.0. [http://www.apache.org/licenses/]                          ',
+' * See: http://seed.sequomics.com/ — for details.                                                    ',
+' * ---------------------------------------------------------------------------                       ',
+' */                                                                                                  ',
+'\n',
+].map(function(s) {
+  return s.replace(/\s+$/, '');
+}).join("\n");
