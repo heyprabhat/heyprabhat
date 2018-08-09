@@ -69,3 +69,12 @@ console.log(chalk.green('Hello! %s'), name);
 // ----------------------------------------------------------------------------------------------------------
 // All Grunt Operations Defined... |--------------------------------------------| 08/Aug/2018 | SEED™ — Umeå.
 // ----------------------------------------------------------------------------------------------------------
+
+// An object literals.
+///-------------------
+var build = {
+  ///Nonidentifier property names are quoted.
+  "system": "SEED™",
+  "name": "Umeå",
+  "audience": "for all beloved family members."
+};
